@@ -20,6 +20,7 @@
   "homepage": "https://github.com/ABDELKBIR-FALH/Abdelkbirfalh-finalproject-html-css#readme",
   "dependencies": {
     "@tailwindcss/cli": "^4.3.5",
+    "flowbite": "^4.0.2",
     "tailwindcss": "^4.3.5"
   }
 }
