@@ -1522,6 +1522,15 @@
   :is(:where(.group):has(:is(.sign:checked)) .group-has-\[\.sign\:checked\]\:hidden) {
     display: none;
   }
+  :is(:where(.group):has(:is(:checked)) .group-has-\[\:checked\]\:block) {
+    display: block;
+  }
+  :is(:where(.group):has(:is(:checked)) .group-has-\[\:checked\]\:hidden) {
+    display: none;
+  }
+  :is(:where(.peer):checked ~ .peer-checked\:block) {
+    display: block;
+  }
   .checked\:border-\[\#2f7a68\]:checked {
     border-color: #2f7a68;
   }
@@ -1544,6 +1553,9 @@
     }
     .hover\:bg-orange-600:hover {
       background-color: var(--color-orange-600);
+    }
+    .hover\:bg-orange-700:hover {
+      background-color: var(--color-orange-700);
     }
     .hover\:text-amber-500:hover {
       color: var(--color-amber-500);
