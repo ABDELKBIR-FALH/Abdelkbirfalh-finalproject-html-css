@@ -461,11 +461,20 @@
   .mb-1 {
     margin-bottom: var(--spacing);
   }
+  .mb-2 {
+    margin-bottom: calc(var(--spacing) * 2);
+  }
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
   }
+  .mb-5 {
+    margin-bottom: calc(var(--spacing) * 5);
+  }
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
+  }
+  .mb-12 {
+    margin-bottom: calc(var(--spacing) * 12);
   }
   .block {
     display: block;
@@ -923,6 +932,9 @@
   .bg-\[\#FDEFE4\] {
     background-color: #FDEFE4;
   }
+  .bg-\[\#FEF3E8\] {
+    background-color: #FEF3E8;
+  }
   .bg-\[\#\] {
     background-color: #;
   }
@@ -1319,6 +1331,9 @@
   }
   .text-\[\#2f7a68\] {
     color: #2f7a68;
+  }
+  .text-\[\#3B7A62\] {
+    color: #3B7A62;
   }
   .text-\[\#e5824f\] {
     color: #e5824f;
