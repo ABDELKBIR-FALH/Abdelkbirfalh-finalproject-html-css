@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+
+.lastet-section {
+  background: #f7f0e8;
+  padding: 64px 16px;
+  font-family: "Outfit", sans-serif;
+}
+
+.lastet-section .container {
+  max-width: 1100px;
+  margin: 0 auto;
+
+
+
+
+
+
+}
+
+.lastet-section .text {
+  margin: 0;
+  font-size: 14px;
+
+
+
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #3b7a62;
+}
+
+.lastet-section .title {
+  margin: 12px 0 32px;
+  font-family: "Fraunces", serif;
+  font-size: 44px;
+
+
+  font-weight: 700;
+  color: #1f221d;
+}
+
+.lastet-section .childern {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 20px;
+}
+
+.lastet-section .card {
+  background: #fff;
+  border: 1px solid #f0e6da;
+  border-radius: 24px;
+
+
+  padding: 26px;
+}
+
+.lastet-section .card h3 {
+  margin: 0 0 8px;
+
+
+
+
+  font-family: "Fraunces", serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #1f221d;
+}
+
+.lastet-section .card p {
+  margin: 0;
+  font-size: 15px;
+
+
+  line-height: 1.6;
+  color: #555;
+}
+
+
+@media (max-width: 700px) {
+  .lastet-section .childern {
+    grid-template-columns: 1fr;
+  }
+  .lastet-section .title {
+    font-size: 32px;
+  }
+}
